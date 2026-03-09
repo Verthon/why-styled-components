@@ -1,0 +1,22 @@
+{
+  "name": "why-styled-components",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "workspaces": ["packages/*", "apps/*"],
+  "scripts": {
+    "build:ui": "npm run build -w packages/core",
+    "dev:web": "npm run dev -w apps/web"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Verthon/why-styled-components.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Verthon/why-styled-components/issues"
+  },
+  "homepage": "https://github.com/Verthon/why-styled-components#readme"
+}
